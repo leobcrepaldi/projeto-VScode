@@ -1,0 +1,17 @@
+body {
+  /*
+  background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}*/
+  background: url(./assets/bg-mobile.jpg) no-repeat center top/cover;
+}
+
+#container {
+  border: 1px solid red;
+  height: 712px;
+  width: 350px;
+  margin-right: auto;
+  margin-left: auto;
+}
