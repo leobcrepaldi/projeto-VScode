@@ -1,23 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body {
-  background: url("./assets/bg-desktop.jpg") no-repeat top center/cover;
+  background: url("./assets/bg-desktop.jpg") no-repeat top center/cover; 
 }
+
 body * {
-  font-family: "Inter", sans-serif;
-  color:;
+  font-family: 'inter', sans-serif;
+  color: white;
 }
+
 #container {
   border: 1px solid red;
-  height: 712px;
-  width: 350px;
-  margin-right: auto;
-  margin-left: auto;
+  width: 360px;
+  margin: auto;
+
+  padding: 100px;
+
 }
+
 #profile {
   text-align: center;
 }
+
 #profile img {
-  width: 150px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+  width: 112px;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
 }
